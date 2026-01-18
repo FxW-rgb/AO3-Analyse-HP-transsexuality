@@ -1,0 +1,112 @@
+===== AO3 SCRAPER LOG =====
+Script: ao3_ids
+Startzeit: 2026-01-15T20:47:28
+Parameter / Aufruf:
+  search_url: https://archiveofourown.org/works/search?work_search%5Bquery%5D=&work_search%5Btitle%5D=&work_search%5Bcreators%5D=&work_search%5Brevised_at%5D=27+month+ago&work_search%5Bcomplete%5D=&work_search%5Bcrossover%5D=F&work_search%5Bsingle_chapter%5D=0&work_search%5Bsingle_chapter%5D=1&work_search%5Bword_count%5D=&work_search%5Blanguage_id%5D=en&work_search%5Bfandom_names%5D=Harry+Potter+-+J.+K.+Rowling&work_search%5Brating_ids%5D=&work_search%5Barchive_warning_ids%5D%5B%5D=16&work_search%5Bcharacter_names%5D=&work_search%5Brelationship_names%5D=&work_search%5Bfreeform_names%5D=&work_search%5Bhits%5D=&work_search%5Bkudos_count%5D=&work_search%5Bcomments_count%5D=&work_search%5Bbookmarks_count%5D=&work_search%5Bsort_column%5D=_score&work_search%5Bsort_direction%5D=desc&commit=Search
+  out_csv: Ausgabedokumente/AO3_HP_IDs_10_2024.csv
+  num_to_retrieve: 2000
+  header: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0; UniProjektDH (madh54@gmail.com)
+  delay: 5
+==========================
+
+Starte Scraping für: https://archiveofourown.org/works/search?work_search%5Bquery%5D=&work_search%5Btitle%5D=&work_search%5Bcreators%5D=&work_search%5Brevised_at%5D=27+month+ago&work_search%5Bcomplete%5D=&work_search%5Bcrossover%5D=F&work_search%5Bsingle_chapter%5D=0&work_search%5Bsingle_chapter%5D=1&work_search%5Bword_count%5D=&work_search%5Blanguage_id%5D=en&work_search%5Bfandom_names%5D=Harry+Potter+-+J.+K.+Rowling&work_search%5Brating_ids%5D=&work_search%5Barchive_warning_ids%5D%5B%5D=16&work_search%5Bcharacter_names%5D=&work_search%5Brelationship_names%5D=&work_search%5Bfreeform_names%5D=&work_search%5Bhits%5D=&work_search%5Bkudos_count%5D=&work_search%5Bcomments_count%5D=&work_search%5Bbookmarks_count%5D=&work_search%5Bsort_column%5D=_score&work_search%5Bsort_direction%5D=desc&commit=Search
+Maximal abzurufende IDs: 2000
+Seite 1 verarbeitet, 20 IDs gesammelt.
+Seite 2 verarbeitet, 40 IDs gesammelt.
+Seite 3 verarbeitet, 60 IDs gesammelt.
+Seite 4 verarbeitet, 80 IDs gesammelt.
+Seite 5 verarbeitet, 100 IDs gesammelt.
+Seite 6 verarbeitet, 120 IDs gesammelt.
+Seite 7 verarbeitet, 140 IDs gesammelt.
+Seite 8 verarbeitet, 160 IDs gesammelt.
+Seite 9 verarbeitet, 180 IDs gesammelt.
+Seite 10 verarbeitet, 200 IDs gesammelt.
+Seite 11 verarbeitet, 220 IDs gesammelt.
+Seite 12 verarbeitet, 240 IDs gesammelt.
+Seite 13 verarbeitet, 260 IDs gesammelt.
+Seite 14 verarbeitet, 280 IDs gesammelt.
+Seite 15 verarbeitet, 300 IDs gesammelt.
+Seite 16 verarbeitet, 320 IDs gesammelt.
+Seite 17 verarbeitet, 340 IDs gesammelt.
+Seite 18 verarbeitet, 360 IDs gesammelt.
+Seite 19 verarbeitet, 380 IDs gesammelt.
+Seite 20 verarbeitet, 400 IDs gesammelt.
+Seite 21 verarbeitet, 420 IDs gesammelt.
+Seite 22 verarbeitet, 440 IDs gesammelt.
+Seite 23 verarbeitet, 460 IDs gesammelt.
+Seite 24 verarbeitet, 480 IDs gesammelt.
+Seite 25 verarbeitet, 500 IDs gesammelt.
+Seite 26 verarbeitet, 520 IDs gesammelt.
+Seite 27 verarbeitet, 540 IDs gesammelt.
+Seite 28 verarbeitet, 560 IDs gesammelt.
+Seite 29 verarbeitet, 580 IDs gesammelt.
+Seite 30 verarbeitet, 600 IDs gesammelt.
+Seite 31 verarbeitet, 620 IDs gesammelt.
+Seite 32 verarbeitet, 640 IDs gesammelt.
+Seite 33 verarbeitet, 660 IDs gesammelt.
+Seite 34 verarbeitet, 680 IDs gesammelt.
+Seite 35 verarbeitet, 700 IDs gesammelt.
+Seite 36 verarbeitet, 720 IDs gesammelt.
+Seite 37 verarbeitet, 740 IDs gesammelt.
+Seite 38 verarbeitet, 760 IDs gesammelt.
+Seite 39 verarbeitet, 780 IDs gesammelt.
+Seite 40 verarbeitet, 800 IDs gesammelt.
+Seite 41 verarbeitet, 820 IDs gesammelt.
+Seite 42 verarbeitet, 840 IDs gesammelt.
+Seite 43 verarbeitet, 860 IDs gesammelt.
+Seite 44 verarbeitet, 880 IDs gesammelt.
+Seite 45 verarbeitet, 900 IDs gesammelt.
+Seite 46 verarbeitet, 920 IDs gesammelt.
+Seite 47 verarbeitet, 940 IDs gesammelt.
+Seite 48 verarbeitet, 960 IDs gesammelt.
+Seite 49 verarbeitet, 980 IDs gesammelt.
+Seite 50 verarbeitet, 1000 IDs gesammelt.
+Seite 51 verarbeitet, 1020 IDs gesammelt.
+Seite 52 verarbeitet, 1040 IDs gesammelt.
+Seite 53 verarbeitet, 1060 IDs gesammelt.
+Seite 54 verarbeitet, 1080 IDs gesammelt.
+Seite 55 verarbeitet, 1100 IDs gesammelt.
+Seite 56 verarbeitet, 1120 IDs gesammelt.
+Seite 57 verarbeitet, 1140 IDs gesammelt.
+Seite 58 verarbeitet, 1160 IDs gesammelt.
+Seite 59 verarbeitet, 1180 IDs gesammelt.
+Seite 60 verarbeitet, 1200 IDs gesammelt.
+Seite 61 verarbeitet, 1220 IDs gesammelt.
+Seite 62 verarbeitet, 1240 IDs gesammelt.
+Seite 63 verarbeitet, 1260 IDs gesammelt.
+Seite 64 verarbeitet, 1280 IDs gesammelt.
+Seite 65 verarbeitet, 1300 IDs gesammelt.
+Seite 66 verarbeitet, 1320 IDs gesammelt.
+Seite 67 verarbeitet, 1340 IDs gesammelt.
+Seite 68 verarbeitet, 1360 IDs gesammelt.
+Seite 69 verarbeitet, 1380 IDs gesammelt.
+Seite 70 verarbeitet, 1400 IDs gesammelt.
+Seite 71 verarbeitet, 1420 IDs gesammelt.
+Seite 72 verarbeitet, 1440 IDs gesammelt.
+Seite 73 verarbeitet, 1460 IDs gesammelt.
+Seite 74 verarbeitet, 1480 IDs gesammelt.
+Seite 75 verarbeitet, 1500 IDs gesammelt.
+Seite 76 verarbeitet, 1520 IDs gesammelt.
+Seite 77 verarbeitet, 1540 IDs gesammelt.
+Seite 78 verarbeitet, 1560 IDs gesammelt.
+Seite 79 verarbeitet, 1580 IDs gesammelt.
+Seite 80 verarbeitet, 1600 IDs gesammelt.
+Seite 81 verarbeitet, 1620 IDs gesammelt.
+Seite 82 verarbeitet, 1640 IDs gesammelt.
+Seite 83 verarbeitet, 1660 IDs gesammelt.
+Seite 84 verarbeitet, 1680 IDs gesammelt.
+Seite 85 verarbeitet, 1700 IDs gesammelt.
+Seite 86 verarbeitet, 1720 IDs gesammelt.
+Seite 87 verarbeitet, 1740 IDs gesammelt.
+Seite 88 verarbeitet, 1760 IDs gesammelt.
+Seite 89 verarbeitet, 1780 IDs gesammelt.
+Seite 90 verarbeitet, 1800 IDs gesammelt.
+Seite 91 verarbeitet, 1803 IDs gesammelt.
+Keine weiteren Ergebnisse gefunden.
+1803 IDs gespeichert in: Ausgabedokumente/AO3_HP_IDs_10_2024.csv
+
+=== Zusammenfassung ===
+IDs gesammelt: 1803
+Ausgabe-CSV: Ausgabedokumente/AO3_HP_IDs_10_2024.csv
+Laufzeit: 2223.3 Sekunden
+===== ENDE =====

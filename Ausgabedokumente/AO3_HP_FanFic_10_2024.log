@@ -1,0 +1,19 @@
+===== AO3 SCRAPER LOG =====
+Script: ao3_works
+Startzeit: 2026-01-15T22:00:04
+Parameter / Aufruf:
+  input_csv: AO3_HP_IDs_10_2024.csv
+  text_csv: AO3_HP_FanFic_10_2024_text.csv
+  meta_csv: AO3_HP_FanFic_10_2024_meta.csv
+  delay: 5
+  header: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0; UniProjektDH (madh54@gmail.com)
+==========================
+
+
+=== Zusammenfassung ===
+Verarbeitete Works: 1803
+Text-CSV: Ausgabedokumente\AO3_HP_FanFic_10_2024_text.csv
+Meta-CSV: Ausgabedokumente\AO3_HP_FanFic_10_2024_meta.csv
+Fehlerdatei: Ausgabedokumente\AO3_HP_FanFic_10_2024_errors.csv
+Laufzeit: 76813.3 Sekunden
+===== ENDE =====
