@@ -1,0 +1,68 @@
+work_id,likelihood,freeform_hits_count,freeform_hits_terms,character_hits_count,character_hits_terms,text_hits_count,text_hits_terms,total_hits_count
+73454846,1.02,1,trans,0,,0,,1
+73447521,1.02,1,trans,0,,0,,1
+73404586,2.28,3,"trans, ftm",0,,0,,3
+73398356,2.03,2,"transphobia, trans",0,,0,,2
+73189381,1.69,1,trans,0,,1,genderqueer,2
+73168956,3.29,4,"gender dysphoria, transphobia, genderfluid",0,,0,,4
+73162251,1.26,2,trans,0,,0,,2
+73145681,0.68,0,,0,,1,sexual orientation,1
+73128221,2.37,1,trans,0,,2,"deadname, trans",3
+73080391,0.68,0,,0,,1,intersex,1
+73051026,1.02,1,trans,0,,0,,1
+73035356,2.03,2,"trans, ftm",0,,0,,2
+73032696,1.02,1,non binary,0,,0,,1
+73011126,2.65,1,trans,0,,4,"transgender, trans",5
+72684851,1.02,1,non binary,0,,0,,1
+72664191,1.26,2,trans,0,,0,,2
+72636416,2.03,2,"gender euphoria, trans",0,,0,,2
+72635346,3.89,1,non binary,0,,5,"gender expression, gender identity, transgender, trans",6
+72629041,1.02,1,trans,0,,0,,1
+72624701,7.66,3,"transphobia, trans",0,,12,"transgender people, assigned at birth, misgendering, transgender, non binary, agender, trans",15
+72615901,2.03,2,"transphobia, trans",0,,0,,2
+72591676,2.95,3,trans,0,,3,"trans person, transgender",6
+72591531,1.02,1,trans,0,,0,,1
+72535051,1.26,2,trans,0,,0,,2
+72528926,1.02,1,genderfluid,0,,0,,1
+72500056,1.02,1,trans,0,,0,,1
+72455821,1.02,1,genderfluid,0,,0,,1
+72417596,2.71,2,"gender dysphoria, trans",0,,1,trans,3
+72389596,2.87,2,"trans, ftm",0,,2,transgender,4
+72287316,1.02,1,trans,0,,0,,1
+72144451,2.71,2,"trans, terf",0,,1,non binary,3
+72114536,2.37,1,trans,0,,2,"biological boy, transsexual",3
+72108571,2.61,2,trans,0,,2,"social transition, deadname",4
+72092711,1.26,2,trans,0,,0,,2
+72078311,1.02,1,trans,0,,0,,1
+72071991,1.02,1,genderqueer,0,,0,,1
+72023176,1.02,1,trans,0,,0,,1
+72023136,2.87,2,"trans, ftm",0,,2,transgender,4
+71977016,0.68,0,,0,,1,sexual orientation,1
+71972451,1.69,1,trans,0,,1,transsexual,2
+71961046,1.26,2,trans,0,,0,,2
+71945241,1.69,1,trans,0,,1,trans,2
+71908236,1.85,7,trans,0,,0,,7
+71907706,1.02,1,trans,0,,0,,1
+71837786,1.02,1,trans,0,,0,,1
+71837436,1.57,4,trans,0,,0,,4
+71825336,0.68,0,,0,,1,intersex,1
+71813036,1.02,1,trans,0,,0,,1
+71754236,1.26,2,trans,0,,0,,2
+71749946,1.26,2,trans,0,,0,,2
+71739736,0.68,0,,0,,1,post op,1
+71681946,1.02,1,trans,0,,0,,1
+71677146,1.02,1,trans,0,,0,,1
+71654156,1.26,2,trans,0,,0,,2
+71638646,1.02,1,trans,0,,0,,1
+71558071,0.68,0,,0,,1,sexual orientation,1
+71558041,1.02,1,trans,0,,0,,1
+71427291,1.02,1,trans,0,,0,,1
+71390066,1.02,1,trans,0,,0,,1
+71236181,1.02,0,,1,non binary,0,,1
+71115726,1.02,1,trans,0,,0,,1
+70679806,0.68,0,,0,,1,non binary,1
+70591046,4.06,4,"gender dysphoria, gender identity, genderfluid, trans",0,,0,,4
+69605531,0.68,0,,0,,1,trans,1
+68559456,0.84,0,,0,,2,gender reassignment,2
+68147881,0.68,0,,0,,1,assigned male at birth,1
+60181408,1.26,2,trans,0,,0,,2

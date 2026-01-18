@@ -1,0 +1,4 @@
+work_id,likelihood,freeform_hits_count,freeform_hits_terms,character_hits_count,character_hits_terms,text_hits_count,text_hits_terms,total_hits_count
+5007118,0.68,0,,0,,1,sex change,1
+5103935,1.02,1,genderfluid,0,,0,,1
+4926748,2.24,4,trans,0,,1,trans,5

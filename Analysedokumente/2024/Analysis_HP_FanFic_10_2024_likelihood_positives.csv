@@ -1,0 +1,36 @@
+work_id,likelihood,freeform_hits_count,freeform_hits_terms,character_hits_count,character_hits_terms,text_hits_count,text_hits_terms,total_hits_count
+55071994,1.02,1,post op,0,,0,,1
+51188194,1.02,1,trans,0,,0,,1
+51141664,1.43,3,trans,0,,0,,3
+51114709,1.26,2,trans,0,,0,,2
+51104257,1.26,2,trans,0,,0,,2
+50990785,1.02,1,non binary,0,,0,,1
+50966977,1.72,0,,0,,5,"non binary, trans",5
+50966977,1.72,0,,0,,5,"non binary, trans",5
+50963689,1.02,1,trans,0,,0,,1
+50914888,1.02,1,trans,0,,0,,1
+50903998,1.26,2,trans,0,,0,,2
+50903998,1.26,2,trans,0,,0,,2
+50882041,2.28,3,"misgendering, trans",0,,0,,3
+50868109,1.02,1,non binary,0,,0,,1
+50748367,1.43,3,trans,0,,0,,3
+50748367,1.43,3,trans,0,,0,,3
+50683702,3.29,2,trans,0,,3,"trans people, cisgender, deadname",5
+50683702,3.29,2,trans,0,,3,"trans people, cisgender, deadname",5
+50673961,1.02,1,trans,0,,0,,1
+50661580,1.02,1,trans,0,,0,,1
+50646364,3.18,10,"trans, ftm",0,,0,,10
+50641408,1.02,1,trans,0,,0,,1
+50629513,1.69,1,trans,0,,1,transgender,2
+50506384,2.19,0,,0,,4,"misgendering, trans flag, trans man",4
+50486068,4.42,1,trans,0,,9,"transgender, transphobia, trans man, trans",10
+50473138,1.02,1,trans,0,,0,,1
+50467378,2.71,2,"misgendering, transphobia",0,,1,trans,3
+50966977,1.72,0,,0,,5,"non binary, trans",5
+50966977,1.72,0,,0,,5,"non binary, trans",5
+50918581,1.02,1,trans,0,,0,,1
+50908189,1.02,1,trans people,0,,0,,1
+50903998,1.26,2,trans,0,,0,,2
+50903998,1.26,2,trans,0,,0,,2
+50790142,1.02,1,trans,0,,0,,1
+50790037,2.1,2,trans,0,,2,trans,4

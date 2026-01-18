@@ -1,0 +1,385 @@
+============================================================
+Analysis_HP_FanFic_10_2024 – Gesamtanalyse
+Erstellt am: 2026-01-17 21:33:37
+============================================================
+
+[2026-01-17 21:34:04] Datenprüfung – Umfang, Struktur, Darstellung
+------------------------------------------------------------
+
+Der Datensatz umfasst 1698 Werke und ist strukturiert nach:
+work_id, title, rating, category, relationship, character, freeform, text, text_norm_lem, text_topic, num_characters, num_freeform_tags
+
+[2026-01-17 21:34:04] Listen Einlesen – Übersicht
+------------------------------------------------------------
+Vergleichsliste erfolgreich eingelesen.
+Dateipfad: HilfsDokumente/compare_list.txt
+Umfang der Liste (Vergleichsliste): 134
+
+Auszug aus Vergleichsliste (erste 10 Terme):
+trans exclusionary radical feminist, gender recognition certificate, gender confirmation surgeries, person with a trans history, assigned female at birth, transgender individuals, transgender individual, assigned male at birth, gender non conforming, gender non confirming
+
+Character-Liste erfolgreich eingelesen.
+Dateipfad: HilfsDokumente/character_list.txt
+Umfang der Liste (Character-Liste): 229
+
+Auszug aus Character-Liste (erste 10 Terme):
+gregorowitsch, xenophilius, shacklebolt, grindelwald, crookshanks, longbottom, ollivander, scrimgeour, dumbledore, mcgonagall
+
+Stopword-Liste erfolgreich eingelesen.
+Dateipfad: HilfsDokumente/stopword_list.txt
+Umfang der Liste (Stopword-Liste): 6998
+
+Auszug aus Stopword-Liste (erste 10 Terme):
+uncomfortable, professional, conversation, nevertheless, relationship, practically, disappeared, nonetheless, christopher, arsecheecks
+
+
+[2026-01-17 21:35:28] Likelihood-Score - Gewichtung und Berechnung
+------------------------------------------------------------
+Score- und Treffer-Berechnung abgeschlossen für
+Gewichtung: tags=0.6, text=0.4
+Log-Skalierung: True
+
+Anzahl der Werke mit mindestens einem Treffer: 35
+Summe aller Treffer: 100
+Durchschnittliche Treffer pro Werk: 2.86
+
+Likelihood-Score Verteilung:
+Höchster Score: 4.42
+Niedrigster Score: 0.0
+Durchschnitt (Mean): 0.03
+Median: 0.0
+Standardabweichung: 0.26
+
+Histogramm des Likelihood-Scores gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_likelihood_distribution.png
+
+Pfad zur CSV-Datei für die manuelle Prüfung: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_likelihood_positives.csv
+
+
+[2026-01-17 21:35:28] Grundlegende Kennzahlen zu den einschlägigen Works
+------------------------------------------------------------
+Definierter Likelihood-Schwellenwert: 0.5
+Mindestanzahl Matches in Tags: 0
+Mindestanzahl Matches in Text: 0
+
+Anzahl aller Werke: 1698
+Anzahl einschlägiger Werke: 35
+Anteil einschlägiger Werke: 2.06 %
+
+Freeform-Tags:
+- Werke mit mindestens einem Freeform-Tag: 35 von 35 (100.0 %)
+- Gesamtanzahl Freeform-Tags in relevanten Werken: 669
+- Anteil dieser Freeform-Tags am gesamten Korpus: 4.2 %
+
+Character-Tags:
+- Werke mit mindestens einem Character-Tag: 33 von 35 (94.3 %)
+- Gesamtanzahl Character-Tags in relevanten Werken: 104
+- Anteil dieser Character-Tags am gesamten Korpus: 1.8 %
+
+Textumfang der einschlägigen Werke:
+- Gesamtlänge der Texte einschlägiger Werke: 135,229 Tokens
+- Anteil am gesamten Textkorpus: 3.7 %
+
+
+[2026-01-17 21:35:33] Breite & Tiefe der Matches – Statistik (compare_list)
+------------------------------------------------------------
+Für Tags (Freeform + Character, compare_list):
+Gesamtanzahl Treffer: 57 in 30 Werken
+Anzahl verschiedener Begriffe: 7
+Top 10 Begriffe: [('trans', 48), ('non binary', 2), ('misgendering', 2), ('ftm', 2), ('post op', 1), ('transphobia', 1), ('trans people', 1)]
+
+Für Textkörper (compare_list):
+Gesamtanzahl Treffer: 43 in 11 Werken
+Anzahl verschiedener Begriffe: 10
+Top 10 Begriffe: [('trans', 23), ('non binary', 4), ('transgender', 3), ('trans man', 3), ('trans people', 2), ('cisgender', 2), ('deadname', 2), ('trans flag', 2), ('misgendering', 1), ('transphobia', 1)]
+
+Co-Occurrence Top Begriffe (compare_list):
+              trans  non binary  misgendering  trans people  transgender  trans man  cisgender  deadname  ftm  trans flag  transphobia  post op
+trans            71           4             2             2            3          2          2         2    2           0            2        0
+non binary        4           6             0             0            0          0          0         0    0           0            0        0
+misgendering      2           0             3             0            0          1          0         0    0           1            1        0
+trans people      2           0             0             3            0          0          2         2    0           0            0        0
+transgender       3           0             0             0            3          2          0         0    0           0            1        0
+trans man         2           0             1             0            2          3          0         0    0           1            1        0
+cisgender         2           0             0             2            0          0          2         2    0           0            0        0
+deadname          2           0             0             2            0          0          2         2    0           0            0        0
+ftm               2           0             0             0            0          0          0         0    2           0            0        0
+trans flag        0           0             1             0            0          1          0         0    0           2            0        0
+transphobia       2           0             1             0            1          1          0         0    0           0            2        0
+post op           0           0             0             0            0          0          0         0    0           0            0        1
+
+Grafik zur Co-Occurrence gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_cooccurrence_compare.png
+Grafik Wordcloud gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_wordcloud_compare.png
+Grafik zu der Art der Matches pro Werk gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_hits_tags_vs_text_compare.png
+Grafik zur Verteilung der Matches nach Werken gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_hits_per_work_compare.png
+
+[2026-01-17 21:35:33] Matches nach Rating
+------------------------------------------------------------
+Matches nach Rating
+- Analyse, in welchem Rating die Werke zum Themenschwerpunkt enthalten sind
+
+Anzahl einschlägiger Werke pro Rating:
+explicit: 15 Werke (42.86%)
+teen and up audiences: 9 Werke (25.71%)
+mature: 8 Werke (22.86%)
+general audiences: 3 Werke (8.57%)
+
+Relativer Anteil im Vergleich zur Gesamtstichprobe (normiert):
+explicit: Gesamt 17.79% | Einschlägig 42.86%
+general audiences: Gesamt 37.51% | Einschlägig 8.57%
+mature: Gesamt 11.43% | Einschlägig 22.86%
+not rated: Gesamt 6.77% | Einschlägig 0.0%
+teen and up audiences: Gesamt 26.5% | Einschlägig 25.71%
+
+Einschlägige Werke pro Rating gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_rating_counts.png
+Rating-Vergleich Gesamt vs. Einschlägig gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_rating_comparison.png
+
+[2026-01-17 21:35:34] Matches vs Character – kombiniert compare_list + character_list
+------------------------------------------------------------
+Figuren im Themenzusammenhang- Analyse der Figuren in einschlägigen Werken
+
+
+Figuren mit explizitem Bezug
+Top 15 Figuren mit explizitem Bezug (inkl. Work IDs):
+1. trans_regulus_black (7 Werke)
+Work IDs: 50473138, 50661580, 50673961, 50882041, 50914888, 50963689, 51188194
+2. trans_harry_potter (5 Werke)
+Work IDs: 50629513, 50683702, 50790037, 50790142
+3. trans_james_potter (4 Werke)
+Work IDs: 50903998
+4. james_being_audhd/trans_is_not_important_to_the_storyline_but_it_is_important_to_me (4 Werke)
+Work IDs: 50903998
+5. trans_sirius_black (2 Werke)
+Work IDs: 50486068, 51141664
+6. trans_remus_lupin (2 Werke)
+Work IDs: 50748367
+7. trans_hermione_granger (2 Werke)
+Work IDs: 50683702
+8. trans_draco_malfoy (2 Werke)
+Work IDs: 50641408, 50646364
+9. trans_male_sirius_black (1 Werke)
+Work IDs: 51141664
+10. trans_narcissa_black_malfoy (1 Werke)
+Work IDs: 51114709
+11. narcissa_black_malfoy (1 Werke)
+Work IDs: 51114709
+12. trans_male_draco_malfoy (1 Werke)
+Work IDs: 50646364
+13. trans_blaise_zabini (1 Werke)
+Work IDs: 50646364
+14. trans_male_blaise_zabini (1 Werke)
+Work IDs: 50646364
+15. ftm_blaise_zabini (1 Werke)
+Work IDs: 50646364
+
+Figuren mit implizitem Bezug (Vorkommen einschlägigen Texten)
+Top 15 Figuren in einschlägigen Werken:
+1. james_potter: 14 Werke
+2. regulus_black: 12 Werke
+3. remus_lupin: 12 Werke
+4. sirius_black: 12 Werke
+5. harry_potter: 11 Werke
+6. evan_rosier: 4 Werke
+7. pandora_lovegood: 3 Werke
+8. dorcas_meadowes: 3 Werke
+9. hannah_abbott: 3 Werke
+10. susan_bones: 3 Werke
+11. draco_malfoy: 2 Werke
+12. barty_crouch_jr.: 2 Werke
+13. hermione_granger: 2 Werke
+14. lavender_brown: 2 Werke
+15. parvati_patil: 2 Werke
+
+Relativer Anteil einschlägige vs. alle Werke (mind. 5 Werke insgesamt):
+21. hannah_abbott: 3 / 6 Werke (33.300000000000004 % in relevanten Werken)
+97. susan_bones: 3 / 6 Werke (33.300000000000004 % in relevanten Werken)
+88. parvati_patil: 2 / 10 Werke (16.7 % in relevanten Werken)
+91. orion_black: 1 / 5 Werke (16.7 % in relevanten Werken)
+81. walburga_black: 1 / 5 Werke (16.7 % in relevanten Werken)
+15. original_characters: 1 / 6 Werke (14.299999999999999 % in relevanten Werken)
+72. frank_longbottom: 1 / 7 Werke (12.5 % in relevanten Werken)
+36. lavender_brown: 2 / 18 Werke (10.0 % in relevanten Werken)
+52. alice_longbottom: 1 / 12 Werke (7.7 % in relevanten Werken)
+45. regulus_black: 12 / 152 Werke (7.3 % in relevanten Werken)
+66. evan_rosier: 4 / 52 Werke (7.1 % in relevanten Werken)
+69. petunia_evans_dursley: 1 / 15 Werke (6.2 % in relevanten Werken)
+85. pandora_lovegood: 3 / 49 Werke (5.800000000000001 % in relevanten Werken)
+32. james_potter: 14 / 236 Werke (5.6000000000000005 % in relevanten Werken)
+71. dorcas_meadowes: 3 / 65 Werke (4.3999999999999995 % in relevanten Werken)
+
+Grafik der Top Figuren gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_topcharacters.png
+Grafik zum relativen Vorkommen (relevant vs. nicht relevant) gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_relativecharacterrelevance.png
+
+[2026-01-17 21:35:53] Topic Modeling - Zusammenfassung über alle Werke (Texte)
+------------------------------------------------------------
+Charakter-Stopwords kombiniert: True
+Stopword-Liste für Topic Modeling verwendet: 7197 Begriffe
+Vokabulargröße nach Stopword-Filterung: 14733
+Topic Modeling – Top Wörter pro Topic:
+
+Topic 1: orgasm, pet, mirror, hermes, euphemia, pub, hoping, present, appeared, colour
+
+Topic 2: present, muggle, causing, quidditch, joke, hoped, bloke, offered, snow, dorm
+
+Topic 3: muggle, power, goddess, brunette, curious, contact, form, fear, friendship, magical
+
+Topic 4: bird, mattheo, lake, hug, questioned, underneath, forever, fix, understood, match
+
+Topic 5: dead, live, muggle, eater, die, bone, married, wedding, order, angry
+
+Topic 6: order, orgasm, magical, band, outfit, lovely, waited, pace, load, form
+
+Topic 7: tabby, ghost, map, animagus, form, elf, list, muggles, bladder, muggle
+
+Topic 8: master, muggle, live, magical, dead, fight, grimmauld, cook, portrait, forever
+
+Anzahl der Werke, in denen die Topics stark dominierend sind (>=0.5):
+Topic 1: 119 Werke (7.0%)
+Topic 2: 156 Werke (9.2%)
+Topic 3: 215 Werke (12.7%)
+Topic 4: 119 Werke (7.0%)
+Topic 5: 255 Werke (15.0%)
+Topic 6: 134 Werke (7.9%)
+Topic 7: 84 Werke (4.9%)
+Topic 8: 119 Werke (7.0%)
+
+Anzahl der Werke, in denen die Topics präsent sind (>=0.2):
+Topic 1: 183 Werke (10.8%)
+Topic 2: 326 Werke (19.2%)
+Topic 3: 555 Werke (32.7%)
+Topic 4: 158 Werke (9.3%)
+Topic 5: 572 Werke (33.7%)
+Topic 6: 200 Werke (11.8%)
+Topic 7: 137 Werke (8.1%)
+Topic 8: 168 Werke (9.9%)
+
+Vollständige Topic-Verteilung für alle Werke gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_topicmodeling_text_all.csv
+
+Grafik zum durchschnittlichen Topic-Anteil gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_topic_text_all_means.png
+Grafik zu den dominanten Topics pro Werk gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_topic_text_all_dominant.png
+
+[2026-01-17 21:36:48] Topic Modeling – Zusammenfassung einschlägige Werke (Text)
+------------------------------------------------------------
+Charakter-Stopwords kombiniert: True
+Stopword-Liste für Topic Modeling verwendet: 7197 Begriffe
+Vokabulargröße nach Stopword-Filterung: 2100
+Topic Modeling – Top Wörter pro Topic (einschlägige Werke):
+
+Topic 1: flirting, vous, prank, woah, adjusting, pout, map, pas, growl, sneaking
+
+Topic 2: shocked, lav, pet, form, mused, bother, trust, height, pronoun, calling
+
+Topic 3: gift, present, opening, hug, mused, yule, teased, dormitory, pile, library
+
+Topic 4: pup, rem, emotion, porch, sleepy, deny, anger, pace, apology, adorned
+
+Topic 5: lovely, shampoo, informed, permission, traced, baptised, sleepy, nap, gender, trans
+
+Topic 6: wedding, die, lovely, order, died, makeup, scared, french, live, promise
+
+Anzahl der Werke, in denen die Topics stark dominant sind (>=0.5):
+Topic 1: 4 Werke (11.4%)
+Topic 2: 5 Werke (14.3%)
+Topic 3: 6 Werke (17.1%)
+Topic 4: 4 Werke (11.4%)
+Topic 5: 4 Werke (11.4%)
+Topic 6: 11 Werke (31.4%)
+
+Anzahl der Werke, in denen die Topics präsent sind (>=0.2):
+Topic 1: 4 Werke (11.4%)
+Topic 2: 5 Werke (14.3%)
+Topic 3: 10 Werke (28.6%)
+Topic 4: 4 Werke (11.4%)
+Topic 5: 4 Werke (11.4%)
+Topic 6: 11 Werke (31.4%)
+
+Vollständige Topic-Verteilung für einschlägige Werke gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_topicmodeling_text_rel.csv
+
+Grafik zum durchschnittlichen Topic-Anteil gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_topic_text_rel_means.png
+Grafik zu den dominanten Topics pro Werk gespeichert unter: Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_topic_text_rel_dominant.png
+
+[2026-01-17 21:36:56] Topic Modeling – Zusammenfassung aller Werke (Tags)
+------------------------------------------------------------
+Topic Modeling für alle Werke auf Basis von Tags.
+Anzahl berücksichtigter Werke mit Tags: 1666
+
+Charakter-Stopwords kombiniert: True
+Stopword-Liste für Tags verwendet: 7197 Begriffe
+(Charakter-Namen berücksichtigt: True)
+Anzahl verschiedener Tags im Vokabular nach Stopword-Filterung: 4514
+
+Top Tags pro Topic (alle Werke):
+
+Topic 1: fluff, hurt/comfort, cultober, established_relationship, emotional_hurt/comfort
+Topic 2: fluff, one_shot, canon_compliant, smut, established_relationship
+Topic 3: alternate_universe___canon_divergence, inktober, harry_potter_epilogue_what_epilogue_|_ewe, boshhptober2023_|_basiatlu's_a_very_harry_drawtober_2023, inktober_2023
+Topic 4: harry_potter_epilogue_what_epilogue_|_ewe, fluff, hp_halloween_fest_2023, not_epilogue_compliant, established_relationship
+Topic 5: fluff, established_relationship, marauders_era_(harry_potter), werewolf_remus_lupin, humor
+
+
+Anzahl der Werke mit dominantem Topic (>= 0.5):
+Topic 1: 279 Werke (16.7%)
+Topic 2: 386 Werke (23.2%)
+Topic 3: 239 Werke (14.3%)
+Topic 4: 370 Werke (22.2%)
+Topic 5: 350 Werke (21.0%)
+
+Anzahl der Werke mit präsentem Topic (>= 0.2):
+Topic 1: 315 Werke (18.9%)
+Topic 2: 445 Werke (26.7%)
+Topic 3: 268 Werke (16.1%)
+Topic 4: 405 Werke (24.3%)
+Topic 5: 422 Werke (25.3%)
+
+Vollständige Topic-Verteilung (Tags, alle Werke) gespeichert unter:
+Analysedokumente/2024\Analysis_HP_FanFic_10_2024_topicmodeling_tags_all.csv
+
+Grafik: Durchschnittlicher Topic-Anteil gespeichert unter:
+Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_topic_tags_all_means.png
+
+Grafik: Dominantes Topic pro Werk gespeichert unter:
+Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_topic_tags_all_dominant.png
+
+
+[2026-01-17 21:36:57] Topic Modeling – Zusammenfassung einschlägiger Werke (Tags)
+------------------------------------------------------------
+Topic Modeling für einschlägige Werke auf Basis von Tags.
+Anzahl berücksichtigter Werke mit Tags: 35
+
+Charakter-Stopwords kombiniert: True
+Stopword-Liste für Tags verwendet: 7197 Begriffe
+(Charakter-Namen berücksichtigt: True)
+Anzahl verschiedener Tags im Vokabular nach Stopword-Filterung: 402
+
+Top Tags pro Topic (einschlägige Werke):
+
+Topic 1: dom_regulus_black, sub_james_potter, choking, background_wolfstar, trans_james_potter
+Topic 2: established_relationship, dom/sub, anal_sex, anal_fingering, top_remus_lupin
+Topic 3: fluff_and_angst, trans_draco_malfoy, james_potter_loves_regulus_black, top_james_potter, trans_male_character
+Topic 4: trans_female_character, vaginal_sex, shameless_smut, praise_kink, top_remus_lupin
+Topic 5: trans_harry_potter, oneshot_prompts_challenge, october_prompt_challenge, coming_out, hurt/comfort
+
+
+Anzahl der Werke mit dominantem Topic (>= 0.5):
+Topic 1: 10 Werke (28.6%)
+Topic 2: 15 Werke (42.9%)
+Topic 3: 5 Werke (14.3%)
+Topic 4: 1 Werke (2.9%)
+Topic 5: 4 Werke (11.4%)
+
+Anzahl der Werke mit präsentem Topic (>= 0.2):
+Topic 1: 10 Werke (28.6%)
+Topic 2: 15 Werke (42.9%)
+Topic 3: 5 Werke (14.3%)
+Topic 4: 1 Werke (2.9%)
+Topic 5: 4 Werke (11.4%)
+
+Vollständige Topic-Verteilung (Tags, einschlägige Werke) gespeichert unter:
+Analysedokumente/2024\Analysis_HP_FanFic_10_2024_topicmodeling_tags_rel.csv
+
+Grafik: Durchschnittlicher Topic-Anteil gespeichert unter:
+Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_topic_tags_rel_means.png
+
+Grafik: Dominantes Topic pro Werk gespeichert unter:
+Analysedokumente/2024\Analysis_HP_FanFic_10_2024_graph_topic_tags_rel_dominant.png
+
+
